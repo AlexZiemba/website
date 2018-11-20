@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald|Quicksand");
+
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+
+body{
+		font-family: 'Quicksand', sans-serif;
+		font-family: 18px;
+		text-align: center;
+	}
+
+h1, h2, h3{
+			font-family: 'Oswald', sans-serif;
+			font-family: 18px;
+			text-align: center;
+			}
+
+a{
+	text-decoration: none;
+	}
+
+.text {
+	background: white;
+	padding: 20px;
+	border: 2px solid green;
+	margin: 30px; 
+	box-shadow: 6px 10px 20px rgba(0,0,0,0.1);
+	text-align: center;
+}
